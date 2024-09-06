@@ -1,2 +1,1 @@
-# wavey-infra
 # soundkit-opus
