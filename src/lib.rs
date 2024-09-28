@@ -1,6 +1,5 @@
 use libopus::{decoder, encoder};
 use soundkit::audio_packet::{Decoder, Encoder};
-use std::ops::BitOr;
 
 pub struct OpusEncoder {
     encoder: encoder::Encoder,
