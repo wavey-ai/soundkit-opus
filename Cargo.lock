@@ -467,9 +467,9 @@ checksum = "0fda2ff0d084019ba4d7c6f371c95d8fd75ce3524c3cb8fb653a3023f6323e64"
 
 [[package]]
 name = "soundkit"
-version = "0.10.5"
+version = "0.11.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e076e3e8f158b91cd9e56b4901b0a71e2fe3304865173616d04d8ea955e54983"
+checksum = "c8928b9986f7814fa7b9ddfb336e28e8bffbd8d073148cb02ee2ce618aa825c3"
 dependencies = [
  "byteorder",
  "rubato",
