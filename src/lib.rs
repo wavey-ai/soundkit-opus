@@ -62,9 +62,12 @@ pub struct OpusDecoder {
 }
 
 impl Decoder for OpusDecoder {
-    fn decode(&mut self, input: &[u8], output: &mut [i16], fec: bool) -> Result<usize, String> {
+    fn decode_i16(&mut self, input: &[u8], output: &mut [i16], fec: bool) -> Result<usize, String> {
         self.decoder
             .decode(input, output, fec)
             .map_err(|e| e.to_string())
+    }
+    fn decode_i32(&mut self, input: &[u8], output: &mut [i32], fec: bool) -> Result<usize, String> {
+        return Err("not implemented.".to_string());
     }
 }
